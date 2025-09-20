@@ -1,8 +1,3 @@
-Perfect, let’s stitch everything we discussed — repo name **Silicon Converge**, tagline **Verge of Silicon** — into a polished, Markdown-ready `README.md` you can drop straight into your repo.
-
-Here’s the file:
-
-````markdown
 # 🧪 Silicon Converge  
 *"On the Verge of Silicon — from RTL to GDS."*  
 
@@ -27,7 +22,7 @@ This repo is your companion on the journey from **RTL to GDSII**, showing how to
 
 ## ⚡ Installation  
 
-This guide is **distro-agnostic** (tested on Arch), but the same steps apply to most Linux environments.  
+This guide is **distro-agnostic**, but the same steps apply to most Linux environments.  
 
 ### 🔹 Yosys  
 ```bash
@@ -42,12 +37,14 @@ sudo make install
 
 ```bash
 sudo pacman -S iverilog   # Arch Linux
+sudo apt-get install iverilog # Ubuntu
 ```
 
 ### 🔹 GTKWave
 
 ```bash
-sudo pacman -S gtkwave
+sudo pacman -S gtkwave # Arch Linux
+sudo apt-get install gtkwave # Ubuntu
 ```
 
 ### 🔹 ngspice
